@@ -1,0 +1,24 @@
+.sh-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .sh-container{
+        width: 90%;
+    }
+}
+.history{
+    margin-top: 20px;
+    background-color: bisque;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.history span{
+    font-weight: 600;
+}

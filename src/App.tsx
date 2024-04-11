@@ -1,26 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Typography } from '@mui/material';
+import {CityInputForm} from './components/CityInputForm/CityInputForm';
+import SearchHistory from './components/SearchHistory/SearchHistory'
+import CopyrightIcon from '@mui/icons-material/Copyright';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import './App.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App: React.FC = () => {
+    const handleCitySubmit = (city: string) => {
+        console.log('Submitted city:', city);
+    };
+
+    return (
+        <div className='App'>
+            <Typography variant="h3" gutterBottom className='heading'>
+                Weather App
+            </Typography>
+            <CityInputForm onCitySubmit={handleCitySubmit} />
+            <SearchHistory/>
+            <div className='details-card'>
+                <Typography className='copyright'><CopyrightIcon/>Raju Peddireddi</Typography>
+                    <div className='icons-card'>
+                        <a href="https://www.linkedin.com/in/raju-peddireddi/" target='_blank' rel='noopener noreferrer'>
+                            <LinkedInIcon className='footer-icon'/>
+                        </a>
+                       
+                        <a href="https://github.com/rajupeddireddy" target='_blank' rel='noopener noreferrer'>
+                            <GitHubIcon className='footer-icon'/>
+                        </a>
+                        
+                        <Typography className='mail'>rajupeddireddy9493@gmail.com</Typography>
+                    </div>
+            </div>
+        </div>
+    );
+};
 
 export default App;
