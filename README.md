@@ -7,7 +7,7 @@ This application helps you to know the current temperature & weather of a partic
 
 step 1: Clone the repo
 
-git clone https://github.com/rajupeddireddy/weather-app.git
+#### git clone https://github.com/rajupeddireddy/weather-app.git
 
 step 2: Move to the repo
 
