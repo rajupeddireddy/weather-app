@@ -3,7 +3,7 @@
 This application helps you to know the current temperature & weather of the particular city
 
 
-##installation:
+## installation:
 
 step 1: Clone the repo
 
