@@ -5,6 +5,8 @@ This application helps you to know the current temperature & weather of the part
 
 installation:
 
+step 1: Clone the repo
+git clone https://github.com/rajupeddireddy/weather-app.git
 ### `npm start`
 
 Runs the app in the development mode.\
