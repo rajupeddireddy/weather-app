@@ -2,7 +2,7 @@
 
 This application helps you to know the current temperature & weather of a particular city
 
-### Technologies Used:  `React Typescript Redux MaterialUi`
+### Technologies Used:  `React Typescript Redux MaterialUi  OpenWeatherApi`
 
 
 ## installation:
