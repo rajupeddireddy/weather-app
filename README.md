@@ -1,10 +1,9 @@
-# Getting Started with Create React App
+# Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application helps you to know the current temperature & weather of the particular city
 
-## Available Scripts
 
-In the project directory, you can run:
+installation:
 
 ### `npm start`
 
