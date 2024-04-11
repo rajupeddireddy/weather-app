@@ -20,7 +20,9 @@ step 3: Install Dependencies
 step 4: Start the development server 
 ### `npm start` 
 
-https://www.loom.com/share/ca634d5967ca44038f720c4aef40aee4?sid=0e979c9b-37e9-418f-a6b2-04581f16bb2a
-
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
+
+https://www.loom.com/share/ca634d5967ca44038f720c4aef40aee4?sid=0e979c9b-37e9-418f-a6b2-04581f16bb2a
 
