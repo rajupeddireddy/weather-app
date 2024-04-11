@@ -11,8 +11,8 @@ step 1: Clone the repo
 
 step 2: Move to the repo
 
-cd weather-app
-code .
+### cd weather-app
+### code .
 
 step 3: Install Dependencies
 ### `npm install`
